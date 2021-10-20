@@ -1,0 +1,14 @@
+# configuration and readme
+!.gitignore
+!.gitpod.yml
+.theia
+.vscode
+!.gitpod.Dockerfile
+!README.md
+
+# python garbage
+*.pyc
+.venv
+conftest.py
+__pycache__/
+.pytest_cache/
